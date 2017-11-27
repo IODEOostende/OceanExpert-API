@@ -113,6 +113,5 @@ API to list all the coutry participation reports
 
 Url  | Description | Parameters | Examples 
 ------------- | ------------- | ------------ | ----------
-/api/v1/countryReports/{idGroup}.json?reportType={type}  | Subsidiary body membership reports  | -  | [https://www.oceanexpert.net/api/v1/countryReports/{idGroup}.json?reportType={type} ](https://www.oceanexpert.net/api/v1/countryReports/46.json?reportType=1)
+/api/v1/countryReports/{idGroup}.json?reportType={type}  | Subsidiary body membership reports  | -  | [https://www.oceanexpert.net/api/v1/countryReports/46.json?reportType=1 ](https://www.oceanexpert.net/api/v1/countryReports/46.json?reportType=1)
 
-I
