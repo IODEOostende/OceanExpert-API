@@ -1,4 +1,4 @@
-# OceanExpert-AP# OceanExpert PPC API Docs    
+# OceanExpert PPC API Docs    
 
 
 This is the documentation for the OceanExpert PPC API.
@@ -101,19 +101,7 @@ Url  | Description | Parameters | Examples
 
 API to list all the coutry participation reports
 
-#### Country List
 
-List all countries in the system
-
-Url  | Description | Parameters | Examples 
-------------- | ------------- | ------------ | ----------
-/api/v1/countries/list.json  | List all countries in OceanExpert  | country  | [https://www.oceanexpert.net/api/v1/countries/list.json ](https://www.oceanexpert.net/api/v1/countries/list.json)
-
-#### by Country
-
-Url  | Description | Parameters | Examples 
-------------- | ------------- | ------------ | ----------
-/api/v1/countryReports/bycountry/{idGroup}.json?country={idCountry}  | List reports by country  | country  | [https://www.oceanexpert.net/api/v1/countryReports/bycountry/31.json?country=74 ](https://www.oceanexpert.net/api/v1/countryReports/bycountry/31.json?country=74)
 
 #### Subsidiary body membership (type = 1)
 
@@ -125,6 +113,6 @@ Url  | Description | Parameters | Examples
 
 Url  | Description | Parameters | Examples 
 ------------- | ------------- | ------------ | ----------
-/api/v1/countryReports/{idGroup}.json?reportType={type}  | Subsidiary body membership reports  | -  | [https://www.oceanexpert.net/api/v1/countryReports/{idGroup}.json?reportType={type} ](https://www.oceanexpert.net/api/v1/countryReports/{idGroup}.json?reportType={type})
+/api/v1/countryReports/{idGroup}.json?reportType={type}  | Subsidiary body membership reports  | -  | [https://www.oceanexpert.net/api/v1/countryReports/{idGroup}.json?reportType={type} ](https://www.oceanexpert.net/api/v1/countryReports/46.json?reportType=1)
 
 I
