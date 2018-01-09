@@ -1,3 +1,4 @@
+
 # OceanExpert PPC API Docs    
 
 
@@ -101,17 +102,16 @@ Url  | Description | Parameters | Examples
 
 API to list all the coutry participation reports
 
-
-
-#### Subsidiary body membership (type = 1)
-
-#### Official meeting participants (type = 2)
-
-#### Training course participants (type = 3)
-
-#### Grants (type = 4)
+#### Country Reports
+Subsidiary body membership (type = 1)  
+Official meeting participants (type = 2)  
+Training course participants (type = 3)  
+Grants (type = 4)
+Expert assistance (type = 5)
+Assistance provided (type = 6)
+Assistance received (type = 7)
 
 Url  | Description | Parameters | Examples 
 ------------- | ------------- | ------------ | ----------
-/api/v1/countryReports/{idGroup}.json?reportType={type}  | Subsidiary body membership reports  | -  | [https://www.oceanexpert.net/api/v1/countryReports/46.json?reportType=1 ](https://www.oceanexpert.net/api/v1/countryReports/46.json?reportType=1)
+/api/v1/countryReports/{idGroup}.json?reportType={type}  | Subsidiary body membership reports  | reportType year   | [https://www.oceanexpert.net/api/v1/countryReports/31.json?reportType=3&year=2017 ](https://www.oceanexpert.net/api/v1/countryReports/31.json?reportType=3&year=2017)
 
