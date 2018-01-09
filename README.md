@@ -116,6 +116,14 @@ Url  | Description | Parameters | Examples
 
 ## Country reports
 
+### Country List
+
+API to get all the countries
+
+Url  | Description | Parameters | Examples 
+------------- | ------------- | ------------ | ----------
+/api/v1/getCountryList/list.json  | List all countries  | -  | [https://www.oceanexpert.net/api/v1/getCountryList/list.json](https://www.oceanexpert.net/api/v1/getCountryList/list.json)
+
 API to list all the coutry participation reports
 
 #### Country Reports
