@@ -105,11 +105,11 @@ API to list all the coutry participation reports
 
 #### Subsidiary body membership (type = 1)
 
-#### Official meeting participants (type = 1)
+#### Official meeting participants (type = 2)
 
-#### Training course participants (type = 1)
+#### Training course participants (type = 3)
 
-#### Grants (type = 1)
+#### Grants (type = 4)
 
 Url  | Description | Parameters | Examples 
 ------------- | ------------- | ------------ | ----------
