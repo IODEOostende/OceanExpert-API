@@ -78,7 +78,23 @@ API to list all the participants in the event
 
 Url  | Description | Parameters | Examples 
 ------------- | ------------- | ------------ | ----------
-/api/v1Ostend/event/viewEventParticipants/{idEvent}.json  | List event participants | -  | [https://www.oceanexpert.net/api/v1/event/viewEventParticipants/1879.json](https://www.oceanexpert.net/api/v1/event/viewEventParticipants/1879.json)
+/api/v1/event/viewEventParticipants/{idEvent}.json  | List event participants | -  | [https://www.oceanexpert.net/api/v1/event/viewEventParticipants/1879.json](https://www.oceanexpert.net/api/v1/event/viewEventParticipants/1879.json)
+
+## Documents
+#### Document details by ID
+API to get document details by ID
+
+Url  | Description | Parameters | Examples 
+------------- | ------------- | ------------ | ----------
+/api/v1/document/viewDocumentRecord/{idDocument}.json  | List document details | -  | [https://www.oceanexpert.net/api/v1/document/viewDocumentRecord/19058.json](https://www.oceanexpert.net/api/v1/document/viewDocumentRecord/19058.json)
+
+#### Document download links
+API to get document download links
+
+Url  | Description | Parameters | Examples 
+------------- | ------------- | ------------ | ----------
+/api/v1/document/viewDocFilesPopup/{idDocument}.json  | List document details | -  | [https://www.oceanexpert.net/api/v1/document/viewDocFilesPopup/19058.json](https://www.oceanexpert.net/api/v1/document/viewDocFilesPopup/19058.json)
+
 
 
 ## Groups of People
