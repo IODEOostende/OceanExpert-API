@@ -95,6 +95,19 @@ Url  | Description | Parameters | Examples
 ------------- | ------------- | ------------ | ----------
 /api/v1/document/viewDocFilesPopup/{idDocument}.json  | List document details | -  | [https://www.oceanexpert.net/api/v1/document/viewDocFilesPopup/19058.json](https://www.oceanexpert.net/api/v1/document/viewDocFilesPopup/19058.json)
 
+#### view all document lists
+API to get all document list in group
+
+Url  | Description | Parameters | Examples 
+------------- | ------------- | ------------ | ----------
+/api/v1/document/doclists/{idGroup}.json  | view all document List in group | -  | [https://www.oceanexpert.net/api/v1/document/doclists/31.json](https://www.oceanexpert.net/api/v1/document/doclists/31.json)
+
+#### view document list details
+API to get document list details
+
+Url  | Description | Parameters | Examples 
+------------- | ------------- | ------------ | ----------
+/api/v1/document/viewDoclistRecord/{idDoclist}.json  | view document List details | -  | [https://www.oceanexpert.net/api/v1/document/viewDoclistRecord/90.json](https://www.oceanexpert.net/api/v1/document/viewDoclistRecord/90.json)
 
 
 ## Groups of People
@@ -138,4 +151,3 @@ Assistance received (type = 7)
 Url  | Description | Parameters | Examples 
 ------------- | ------------- | ------------ | ----------
 /api/v1/countryReports/{idGroup}.json?reportType={type}  | Subsidiary body membership reports  | reportType year   | [https://www.oceanexpert.net/api/v1/countryReports/31.json?reportType=3&year=2017 ](https://www.oceanexpert.net/api/v1/countryReports/31.json?reportType=3&year=2017)
-
