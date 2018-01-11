@@ -37,18 +37,18 @@ Url  | Description | Parameters | Examples
 ## Event
 
 #### Calendar Events:
-This API displays all the events for the group. (for eg. IOC is having group id 32) 
+This API displays all the events for the group. (for eg. IOC is having group id 31) 
 
 Url  | Description | Parameters | Examples 
 ------------- | ------------- | ------------ | ----------
-api/v1/getEventCalendar/{idGroup}.json  | List all the events in the Website Groups  | start<br/> end  | [https://www.oceanexpert.net/api/v1/getEventCalendar/32.json?start=2018-03-01&end=2018-06-30](https://www.oceanexpert.net/api/v1/getEventCalendar/32.json?start=2018-03-01&end=2018-06-30) 
+api/v1/getEventCalendar/{idGroup}.json  | List all the events in the Website Groups  | start<br/> end  | [https://www.oceanexpert.net/api/v1/getEventCalendar/31.json?start=2018-03-01&end=2018-06-30](https://www.oceanexpert.net/api/v1/getEventCalendar/31.json?start=2018-03-01&end=2018-06-30) 
 
 #### Upcoming Events:
 This Api list the upcoming event for the group.
 
 Url  | Description | Parameters | Examples 
 ------------- | ------------- | ------------ | ----------
-api/v1/getUpcomingEvents/{idGroup}.json  | List all the Upcoming event in the Website Groups  | limit  | [https://www.oceanexpert.net/api/v1/getUpcomingEvents/32.json](https://www.oceanexpert.net/api/v1/getUpcomingEvents/32.json)
+api/v1/getUpcomingEvents/{idGroup}.json  | List all the Upcoming event in the Website Groups  | limit  | [https://www.oceanexpert.net/api/v1/getUpcomingEvents/31.json](https://www.oceanexpert.net/api/v1/getUpcomingEvents/31.json)
 
 
 #### Event Record:
