@@ -31,7 +31,7 @@ API to get the advanced search results
 
 Url  | Description | Parameters | Examples 
 ------------- | ------------- | ------------ | ----------
-/api/v1/advanceSearch/search.json  | List Group members  | keywords<br />action<br/>type\[\]<br />filter<br />toggle<br />limit<br/>page  | [https://www.oceanexpert.net/api/v1/advanceSearch/search.json?action=browse&type=experts&query=peter+pissierssens](https://www.oceanexpert.net/api/v1/advanceSearch/search.json?action=browse&type=experts&query=peter+pissierssens)
+/api/v1/advanceSearch/search.json  | List Group members  | keywords<br />action<br/>type\[\]<br />filter<br />toggle<br />limit<br/>page  | [https://www.oceanexpert.net/api/v1/advanceSearch/search.json?type[]=experts&filter[]=Name+contains&keywords[]=peter&toggle[]=AND&type[]=experts&filter[]=Email+contains&keywords[]=peter&action=advSearch](https://www.oceanexpert.net/api/v1/advanceSearch/search.json?type[]=experts&filter[]=Name+contains&keywords[]=peter&toggle[]=AND&type[]=experts&filter[]=Email+contains&keywords[]=peter&action=advSearch)
 
 #####Parameters:
 keywords => any keywords in search
