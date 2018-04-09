@@ -1,6 +1,5 @@
 
-# OceanExpert PPC API Docs    
-
+# OceanExpert PPC API Docs
 
 This is the documentation for the OceanExpert PPC API.
 
@@ -10,6 +9,69 @@ This is the documentation for the OceanExpert PPC API.
 [Documents](#document)    
 [Groups](#groups-of-people)    
 [Reports](#reports)    
+
+
+
+
+## Search
+
+### Basic Search
+
+API to get the basic search results
+
+Url  | Description | Parameters | Examples 
+------------- | ------------- | ------------ | ----------
+/api/v1/advanceSearch/search.json  | List Group members  | query (Query String)<br />action(browse)<br/>type(all,experts,institutions,events)<br />limit<br/>page  | [https://www.oceanexpert.net/api/v1/advanceSearch/search.json?action=browse&type=experts&query=peter+pissierssens](https://www.oceanexpert.net/api/v1/advanceSearch/search.json?action=browse&type=experts&query=peter+pissierssens)
+
+### Advanced Search
+
+API to get the advanced search results
+
+Url  | Description | Parameters | Examples 
+------------- | ------------- | ------------ | ----------
+/api/v1/advanceSearch/search.json  | List Group members  | keywords<br />action<br/>type\[\]<br />filter<br />toggle<br />limit<br/>page  | [https://www.oceanexpert.net/api/v1/advanceSearch/search.json?action=browse&type=experts&query=peter+pissierssens](https://www.oceanexpert.net/api/v1/advanceSearch/search.json?action=browse&type=experts&query=peter+pissierssens)
+
+#####Parameters:
+keywords => any keywords in search
+
+action = advance (for advance search)
+
+type[] => may contain multiple type (experts, institutions, events)
+
+filter[] => filter related to search types. Following filters can be applied for each types.
+
+Expert| Institutions | Events
+------|--------------|-------
+First name contains | Current address contains | Title contains |
+Last name contains | Current/Previous addresses contain | eType is |
+Current address contains | Country is | Summary contains |
+Current/Previous addresses contain | Sea regions of study is | Keywords contain |
+Phone/Fax contains | Type is | Address contains |
+Email contains | Activities contains | Country is |
+Website URL contains | Tel/Fax contains | Date between |
+Country is | Website URL contains | Updated |
+Sea regions of study is | EDMO Code is | Created |
+Member of group or sub-group | Updated | |
+Job type is | Created | |
+Job title contains | | |
+Department contains | | |
+Institution name contains | | |
+Subject Area is | | |
+Activites include | | |
+Working languages includes | | |
+Degree contains | | |
+Is retired | | |
+Is deceased | | |
+Is quality checked | | |
+Quality last checked | | |
+Updated | | |
+Created | | | 
+
+toggle[] => conditions for each type and filters
+
+limit => result limit
+
+page => pagination page numbers.
 
 
 ## Expert
@@ -151,3 +213,11 @@ Assistance received (type = 7)
 Url  | Description | Parameters | Examples 
 ------------- | ------------- | ------------ | ----------
 /api/v1/countryReports/{idGroup}.json?reportType={type}  | Subsidiary body membership reports  | reportType year   | [https://www.oceanexpert.net/api/v1/countryReports/31.json?reportType=3&year=2017 ](https://www.oceanexpert.net/api/v1/countryReports/31.json?reportType=3&year=2017)
+
+
+## Login API
+#### OceanExpert Login (Post method only)
+
+Url  | Description | Parameters | Examples 
+------------- | ------------- | ------------ | ----------
+/api/login_check  | Login API  | username<br />password   | [https://www.oceanexpert.net/api/login_check](https://www.oceanexpert.net/api/login_check)
