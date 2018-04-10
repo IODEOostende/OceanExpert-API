@@ -222,4 +222,6 @@ Url  | Description | Parameters | Examples
 
 Url  | Description | Parameters | Examples 
 ------------- | ------------- | ------------ | ----------
-/api/login_check  | Login API  | username<br />password   | [https://www.oceanexpert.net/api/login_check](https://www.oceanexpert.net/api/login_check)
+/api/login_check  | Login API  | username<br />password   | [https://www.oceanexpert.net/api/login_check](https://www.oceanexpert.net/api/login_check)  
+<span style="color:red"><u>Note:</u> Login API requests MUST include a valid [User-Agent header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent). Requests with no User-Agent header will be rejected and throws error as <code>406 Not Acceptable</code>.</span>
+
