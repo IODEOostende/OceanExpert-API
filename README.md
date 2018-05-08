@@ -207,10 +207,10 @@ API to list all the coutry participation reports
 Subsidiary body membership (type = 1)  
 Official meeting participants (type = 2)  
 Training course participants (type = 3)  
-Grants (type = 4)
+Grants (type = 4)  
 Expert assistance (type = 5)  
 Assistance provided (type = 6)  
-Assistance received (type = 7)
+Assistance received (type = 7)  
 
 Url  | Description | Parameters | Examples 
 ------------- | ------------- | ------------ | ----------
