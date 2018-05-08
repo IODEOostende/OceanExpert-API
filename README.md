@@ -214,7 +214,7 @@ Assistance received (type = 7)
 
 Url  | Description | Parameters | Examples 
 ------------- | ------------- | ------------ | ----------
-/api/v1/countryReports/{idGroup}.json?reportType={type}  | Subsidiary body membership reports  | reportType year  country  | [https://www.oceanexpert.net/api/v1/countryReports/31.json?reportType=3&country=21&year=2017 ](https://www.oceanexpert.net/api/v1/countryReports/31.json?reportType=3&country=21&year=2017)
+/api/v1/countryReports/{idGroup}.json?reportType={type}  | Subsidiary body membership reports  | reportType<br/>year<br/>country  | [https://www.oceanexpert.net/api/v1/countryReports/31.json?reportType=3&country=21&year=2017 ](https://www.oceanexpert.net/api/v1/countryReports/31.json?reportType=3&country=21&year=2017)
 
 
 ## Login API
