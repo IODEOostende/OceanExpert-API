@@ -84,7 +84,7 @@ API to get the details of expert
 
 Url  | Description | Parameters | Examples 
 ------------- | ------------- | ------------ | ----------
-/api/v1/institution/{idExpert}.json  | List Group members  | limit<br/>offset  | [https://www.oceanexpert.net/api/v1/expert/27036.json](https://www.oceanexpert.net/api/v1/expert/27036.json)
+/api/v1/expert/{idExpert}.json  | List Group members  | limit<br/>offset  | [https://www.oceanexpert.net/api/v1/expert/27036.json](https://www.oceanexpert.net/api/v1/expert/27036.json)
 
 
 
