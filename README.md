@@ -1,4 +1,9 @@
 
+This doc has been moved to BitBucket/oceanExpert2018 as the code is also there.
+This repository will be deleted soon
+
+Arno <a.lambert@unesco.org>
+
 # OceanExpert PPC API Docs
 
 This is the documentation for the OceanExpert PPC API.
